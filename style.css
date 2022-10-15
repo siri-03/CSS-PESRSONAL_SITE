@@ -1,0 +1,135 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;/*only for the inline elements that doesn't have t's width set*/
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+   margin: 50px auto 0 auto; 
+    /*if the width is set for any element, then use the auto property of the margin*/
+    /*similar to: margin: 0 auto;*/
+    color: #66BFBF;
+    line-height: 2;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625em;/*100% => 16px//so, 90px=(90/16)*100=562.5%*/
+/*em is the unit for r dynamic sizing of fonts*/
+/*1em is the size=16px*/
+/*rem => root em(meaning: it ignores the parent em's and only inherits the current tag's em*/
+/*rem =>most recommended while styling fontsizes*/
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding: 20px;
+}
+
+h3{
+    /*font-family: 'Montserrat', sans-serif;*/
+    color: #11999E;
+    font-size: 30px;
+}
+
+h4{
+    color: #11999E;
+}
+
+a{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    border-color: grey;
+    margin: 100px auto;;
+}
+
+p{
+    font-size: 20px;
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.btn{
+    
+        font-size:20px;
+        font-family: 'Montserrat', sans-serif;
+        width:140px;
+        height:50px;
+        /*border-width:1px;*/
+        border-radius: 8px;
+        color:#ffffff;
+        text-decoration: none;
+        padding: 10px 20px 10px 20px;
+        /*border-color:#18ab29;*/
+        font-weight:bold;
+        background:#11CDD4;
+    }
+      
+.btn:hover {
+background: #30e3cb;
+}
+             
+.bottom-container{
+    background-color: #66BFBF;
+    margin-top: 30px;
+    padding: 50px 0px 20px;
+}
+.bud{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position:absolute;
+    right:350px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left:350px;
+    bottom: 300px;
+}
+
+.skill1,.skill2,.skill3,.skill4{
+    height: 200px;
+    width: 25%;
+}
+
+.skill1,.skill3{
+    float: left;
+    margin-right: 30px;
+}
+
+.skill2,.skill4{
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+} 
+/*
+.s{
+    text-align: left;
+}*/
+
+.contact-me
